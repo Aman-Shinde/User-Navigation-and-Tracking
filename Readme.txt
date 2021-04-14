@@ -3,29 +3,29 @@ User Navigation and Tracking
 dataflow:-
 
 				login.html
-					|
+				     |
 				process.php
 				 /        \
-		users.php       admin.php
-		/		\
-process1.php  process2.php
+			users.php       admin.php
+		       /	\
+		process1.php  process2.php
 
 
 Database structure :-
 
 				tracking (database)
 				/		\
-			users		user
+			   users		user
 
-	users:- ID		 :- Primary key
-			Email_ID :-	User's email stored in this cloumn
+	users:- 	ID	 :- Primary key
+			Email_ID :- User's email stored in this cloumn
 			Password :- Password of the user stored in this coloumn
-			Role 	 :-	Role of user stored in this coloumn
+			Role 	 :- Role of user stored in this coloumn
 	(we are using users table for multiuser login in same page we check the role of the user and accordingly redirect user to concern page)
 
 
-	user:- ID		 :- Primary key
-		   Email_ID	 :-	User's email stored in this cloumn
+	user:-     ID	     :- Primary key
+		   Email_ID  :-	User's email stored in this cloumn
 		   Latitude  :-	Latitude of user's location stored in this coloumn
 		   Longitude :- Longitude of user's location stored in this coloumn
 		   Timestamp :- Updated timestamp of user's location stored in this coloumn
