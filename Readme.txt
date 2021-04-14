@@ -2,7 +2,7 @@ User Navigation and Tracking
 
 dataflow:-
 
-				login.html
+				 index.html
 				     |
 				process.php
 				 /        \
