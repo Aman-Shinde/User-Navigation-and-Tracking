@@ -140,7 +140,7 @@ function refreshPage()
   <br />
   <div id="map" style="height:100%" ></div>  
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIAfNGJUCiLVjzDBBCeT6cbqcg5ov3pCc&callback=GetRoute&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR API KEY&callback=GetRoute&libraries=&v=weekly"
       async
     ></script>
   </body>
